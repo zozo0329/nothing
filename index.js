@@ -79,3 +79,5 @@ function ohYeah() {
   no6.style.display = "none";
   backgroundColor.style.backgroundColor = "white";
 }
+alert("Are you sure you want to continue?");
+alert("Alright but please, Don't say no :))");
