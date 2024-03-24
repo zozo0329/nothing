@@ -5,6 +5,7 @@ let backgroundColor = document.querySelector(".main-section");
 let question = document.querySelector(".question h1");
 let buttons = document.querySelector(".other-buttons button");
 let music = document.getElementById("music");
+let description = document.querySelector(".background-music p");
 // other no
 let no1 = document.getElementById("no1");
 let no2 = document.getElementById("no2");
@@ -64,6 +65,7 @@ function ohYeah() {
   buttons.style.display = "none";
   coupleGif.style.display = "block";
   music.style.display = "block";
+  description.style.display = "block";
   img1.style.display = "none";
   img2.style.display = "none";
   img3.style.display = "none";
