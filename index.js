@@ -6,6 +6,7 @@ let question = document.querySelector(".question h1");
 let buttons = document.querySelector(".other-buttons button");
 let music = document.getElementById("music");
 let description = document.querySelector(".background-music p");
+let ily = document.querySelector(".background-music h1");
 // other no
 let no1 = document.getElementById("no1");
 let no2 = document.getElementById("no2");
@@ -78,6 +79,7 @@ function ohYeah() {
   no5.style.display = "none";
   no6.style.display = "none";
   backgroundColor.style.backgroundColor = "white";
+  ily.style.display = "block";
 }
 alert("Are you sure you want to continue?");
-alert("Alright but please, Don't say no :))");
+alert("Alright but please, Don't say no :)");
