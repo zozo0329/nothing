@@ -5,6 +5,7 @@ body {
 
 .main-section {
   text-align: center;
+  padding: 10px;
 }
 .question {
   display: flex;
@@ -52,6 +53,15 @@ body {
 #couple {
   display: none;
 }
+#shadowMan {
+  display: none;
+}
+#jigsaw {
+  display: none;
+}
+#sadBoy {
+  display: none;
+}
 /* 
     BGM
 */
@@ -69,10 +79,22 @@ body {
   font-weight: bold;
   display: none;
 }
-
 .background-music audio {
   display: none;
 }
+/* 
+  2
+*/
+.background-music2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#music2 {
+  display: none;
+}
+
 /* 
     OTHER BUTTONS
 */
@@ -113,7 +135,48 @@ body {
 #no6 {
   visibility: hidden;
 }
-
+/* 
+    DARK BUTTONS 
+*/
+#darkButton {
+  display: none;
+}
+.dark-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 10px;
+}
+.dark-buttons button {
+  background-color: #410300;
+  color: rgb(255, 44, 44);
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  padding: 20px 60px;
+  border-radius: 50px;
+}
+.dark-buttons button:hover {
+  background-color: #1b0403;
+  color: #fa0c04;
+}
+.last-button {
+  display: none;
+}
+.last-button button {
+  font-family: monospace;
+  background-color: #fa0c04;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 50px 80px 50px 80px;
+  border-radius: 100px;
+  border: none;
+}
+.last-button button:hover {
+  background-color: #00c500;
+}
 @media (max-width: 900px) {
   .other-buttons {
     display: flex;
