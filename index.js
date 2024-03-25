@@ -74,14 +74,14 @@ function ohNo7() {
   img5.style.display = "none";
   img6.style.display = "block";
   backgroundColor.style.backgroundColor = "#230100";
-  question.innerHTML = "Do you Really love me?";
+  question.innerHTML = "You don't love me?";
 }
 function ohNo8() {
   darkButtons.style.display = "none";
   lastButton.style.display = "block";
   img6.style.display = "none";
   img7.style.display = "block";
-  question.innerHTML = "Last question, Do you love me?";
+  question.innerHTML = "You still choose no. Last question, Do you love me?";
   question.style.color = "#560c03";
 }
 function ohNo9() {
